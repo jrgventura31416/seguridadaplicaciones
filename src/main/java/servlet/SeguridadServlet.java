@@ -31,6 +31,9 @@ public class SeguridadServlet extends HttpServlet {
     	System.out.println(email);
     	System.out.println(password);
     	System.out.println(password);
+    	System.out.println(email);
+    	System.out.println(password);
+    	System.out.println(password);
     	
     }
 
