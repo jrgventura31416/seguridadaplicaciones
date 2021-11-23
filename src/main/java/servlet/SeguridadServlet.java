@@ -25,6 +25,12 @@ public class SeguridadServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     	
+    	String email = request.getParameter("txtEmail");
+    	String password = request.getParameter("txtPassword");
+    	
+    	System.out.println(email);
+    	System.out.println(password);
+    	
     }
 
 	/**
